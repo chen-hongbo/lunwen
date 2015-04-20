@@ -1,0 +1,40 @@
+---
+title: "用R进行福建省婚姻状态分析"
+output: word_document
+---
+##摘要
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+##研究目的
+
+    夫妻是是社会发展的基础，因此夫妻关系的稳定对社会的稳定有着及为重要的作用，受环境的变化，男女在社会上能力及地位的较传统有了很大的变化，家庭的稳定性较传统社会弱，本研究的课题就是争对影响家庭稳定性的因素进行分析，
+
+##研究工具
+
+    R语言是一种统计分析的工具，
+
+##研究过程
+
+
+
+##研究成果
+
+
+
+
+```{r,echo=FALSE}
+marrary_data <- read.csv("20154171.txt", header=FALSE)
+head(marrary_data)
+
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+
+```
+
+
